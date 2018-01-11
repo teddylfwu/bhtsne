@@ -1,6 +1,6 @@
 function mappedX = fast_tsne(X, no_dims, initial_dims, perplexity, theta, alg, max_iter)
 %FAST_TSNE Runs the C++ implementation of Barnes-Hut t-SNE
-%
+% 
 %   mappedX = fast_tsne(X, no_dims, initial_dims, perplexity, theta, alg)
 %
 % Runs the C++ implementation of Barnes-Hut-SNE. The high-dimensional 
